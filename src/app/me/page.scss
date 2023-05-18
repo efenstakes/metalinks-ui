@@ -1,0 +1,88 @@
+// @import '../styles/commons';
+@import '../styles/commons';
+
+
+.no_account_container {
+    padding: 1.6rem 2rem;
+    min-height: 220px;
+
+    border-radius: $BORDER_RADIUS_MD;
+}
+
+
+.profile_avatars_container {
+    position: relative;
+
+    min-height: 440px;
+    width: 100%;
+
+    // background-color: red;
+
+    @media screen and (max-width: 560px) {
+        min-height: 320px;
+    }
+}
+
+.profile_avatars_container__avatar_container__big_avatar {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+
+    background: linear-gradient(
+        148deg,
+        $SECONDARY_COLOR,
+        $PRIMARY_COLOR
+    );
+    
+
+    @media screen and (max-width: 560px) {
+        bottom: 15%;
+    }
+}
+
+.profile_avatars_container__avatar_container {
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    min-height: 120px;
+}
+
+.profile_avatars_container__avatar_container__avatar, .profile_avatars_container__avatar_container__avatar__loading {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+
+    background-color: $SECONDARY_COLOR;
+    border: .32rem solid $WHITE_COLOR;
+
+    @media screen and (max-width: 560px) {
+        width: 120px;
+        height: 120px;  
+    }
+}
+
+.profile_avatars_container__avatar_container__avatar__loading {
+    background-color: beige;
+}
+
+
+.profile_info_container {
+    margin: auto;
+
+    max-width: 800px;
+}
+
+.profile_info_container__bio {
+    text-align: center;
+}
+
+.profile_info_container__chips {
+    width: 100%;
+}
