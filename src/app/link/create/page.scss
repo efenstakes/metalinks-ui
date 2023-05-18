@@ -1,0 +1,35 @@
+@import '../../styles/commons';
+
+
+.add_avatar {
+    position: relative;
+    padding: 1rem;
+}
+
+.add_avatar__form {
+    position: relative;
+    max-width: 640px;
+
+    margin: auto;
+    padding: 2rem 1rem;
+    // background-color: peachpuff;
+}
+
+
+.add_avatar__button {
+    margin: auto;
+}
+.add_avatar__close_button {
+    margin: auto;
+}
+
+
+.avatar_display {
+    position: relative;
+
+    aspect-ratio: 4/2;
+
+    background-color: bisque;
+
+    border-radius: $BOX_SHADOW_HOVER_SM;
+}
