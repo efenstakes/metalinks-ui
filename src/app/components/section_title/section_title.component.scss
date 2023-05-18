@@ -1,0 +1,26 @@
+@import '../../styles/commons';
+
+
+
+.section_title_container, .section_title_container__right {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+}
+
+.section_title_container {
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+
+.section_title_container__title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: $BLACK_COLOR;
+    font-family: 'Oswald';
+}
+
+.section_title_container__right {
+
+}

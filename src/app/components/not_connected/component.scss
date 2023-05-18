@@ -1,0 +1,28 @@
+@import '../../styles/commons';
+
+
+
+.not_loggedin_container {
+    margin: 25vh 16px;
+    padding: 1.6rem 2rem;
+    min-height: 220px;
+
+    max-width: 800px;
+
+    border-radius: $BORDER_RADIUS_MD;
+
+    background: linear-gradient(
+        148deg,
+        $PRIMARY_COLOR,
+        $SECONDARY_COLOR,
+    );
+    // color: cornsilk;
+    // color: floralwhite;
+    // color: ;
+    // color: ;
+
+    @media screen and (min-width: 1000px) {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

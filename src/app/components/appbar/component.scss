@@ -1,0 +1,57 @@
+@import '../../styles/commons';
+
+
+.main_appbar {
+    background-color: rgba($WHITE_COLOR, .6);
+    background: linear-gradient(
+        rgba($WHITE_COLOR, .6),
+        rgba($WHITE_COLOR, .4),
+    );
+    backdrop-filter: blur(10px);
+}
+
+.main_appbar__logo_container__image {
+    width: 1.6rem;
+    height: 1.8rem;
+
+    margin-right: 1rem;
+}
+
+.main_appbar__logo_container__logo {
+    // color: $WHITE_COLOR;
+    font-family: 'Oswald';
+}
+
+.main_appbar__right_container__text {
+    // margin-left: 1rem;
+}
+
+.main_appbar__right_container__image {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+
+    margin-right: .8rem;
+}
+
+.main_appbar__button {
+    padding: .2rem .4rem;
+    background-color: $BLACK_COLOR;
+    color: $WHITE_COLOR;
+}
+
+.appbar__actions {
+    flex: 1;
+}
+
+.main_appbar_action {
+    margin: 0 6rem;
+}
+
+
+.main_appbar__right_container_identicon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: .5rem;
+}

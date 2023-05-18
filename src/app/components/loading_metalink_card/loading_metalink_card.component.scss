@@ -1,0 +1,14 @@
+@import '../../styles/commons';
+
+
+.loading_metalink_card {
+    position: relative;
+
+    height: 180px;
+
+    margin-bottom: 1rem;
+}
+
+.loading_metalink_card__loader {
+    border-radius: $BORDER_RADIUS_SM;    
+}

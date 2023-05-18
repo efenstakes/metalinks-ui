@@ -1,0 +1,17 @@
+@import '../../styles/commons';
+
+
+
+.success_container {
+    margin: 1rem;
+    padding: 1.6rem 2rem;
+    height: 98vh;
+
+    border-radius: $BORDER_RADIUS_MD;
+
+    background: linear-gradient(
+        148deg,
+        $PRIMARY_COLOR,
+        $SECONDARY_COLOR,
+    );
+}

@@ -1,0 +1,15 @@
+@import '../../styles/commons';
+
+
+.fab {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem 0;
+}

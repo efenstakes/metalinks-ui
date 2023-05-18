@@ -1,0 +1,9 @@
+@import '../../styles/commons';
+
+
+.not_loggedin_container {
+    padding: 1.6rem 2rem;
+    min-height: 220px;
+
+    border-radius: $BORDER_RADIUS_MD;
+}
