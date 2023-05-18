@@ -1,0 +1,83 @@
+@import '../abstract/variables';
+@import '../abstract/colors';
+
+
+.outer_card_container {
+    position: relative;
+    
+    width: 100%;
+    min-width: 200px;
+
+    padding: 0 1rem 0 0;
+    margin: 1rem 0;
+
+    user-select: none;
+}
+
+
+.inline_card_container {
+    position: relative;
+
+    cursor: pointer;
+
+    height: 40vh;
+    width: 100%;
+    padding: 0 .5rem;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    border-radius: $BORDER_RADIUS;
+
+    color: wheat;
+    
+    @extend .background_image_container;
+}
+
+
+.stat_card__base {
+    position: relative;
+    user-select: none;
+    
+    justify-content: space-around;
+
+    max-width: 320px;
+    // min-height: 132px;
+
+    padding: .8rem;
+    background-color: $CARDS_BACKGROUND;
+
+    border-radius: $BORDER_RADIUS;
+
+    @extend .text_7;
+
+    flex: 1;
+
+    transition: 400ms;
+}
+
+.stat_card__base_animated:hover {
+    transform: rotateY(20deg) rotateX(2deg) scale(1);
+}
+
+.stat_card__base_xs {
+    padding: .6rem;
+    border-radius: $BORDER_RADIUS_SM;
+}
+.stat_card__base_sm {
+    padding: .64rem;
+    border-radius: $BORDER_RADIUS_SM;
+}
+.stat_card__base_md {
+    padding: 1.2rem;
+    // min-height: 160px;
+}
+.stat_card__base_lg {
+    padding: 1.8rem;
+    // min-height: 180px;
+}
+.stat_card__base_xl {
+    padding: 0rem 1.6rem 2rem 1.6rem;
+    // min-height: 200px;
+}
